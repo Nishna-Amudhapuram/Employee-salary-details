@@ -1,0 +1,7 @@
+salary = int(input("enter the salary: "))
+if salary < 10000:
+    p = (salary * 10) / 100
+    print(salary + p)
+if salary > 10000:
+    l = (salary * 5) / 100
+    print(salary + l)
